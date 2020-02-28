@@ -4,3 +4,8 @@
     background-image: linear-gradient(to right, white, black, black, red);
     color: white; 
 }
+
+.site-footer {
+    background-image: linear-gradient(to right, lightblue, white, lightblue);
+    padding: 20px 0; 
+}
