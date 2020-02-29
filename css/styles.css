@@ -44,3 +44,19 @@
     background: #125688;
     color: white;
   }
+
+  /* Carousel */
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid black;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
