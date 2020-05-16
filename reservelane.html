@@ -76,8 +76,57 @@
     </nav>
 
     <!-- Main Reserve Lane Content -->
-    
 
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-12">
+                <h2>Reserve a Lane</h2>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <form action="https://learn.nucamp.co/show_everything.php" method="post" enctype="multipart/form-data">
+                    <!-- Name of Reservation -->
+                    <div class="form-group row">
+                        <label for="fullName" class="col-md-2 col-form-label">Full Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="fullName" name="fullName"
+                                placeholder="Please enter your full name" required />
+                        </div>
+                    </div>
+                    <!-- Number of Lanes -->
+                    <div class="form-group row">
+                        <label for="numberOfLanes" class="col-md-2 col-form-label">Number of Lanes</label>
+                        <div class="col-md-10">
+                            <select id="numberOfLanes" class="form-control" name="numberOfLanes" form="numberOfLanes" required>
+                                <option value="0" hidden>Select number of lanes to be reserved</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Date of Reservation -->
+                    <div class="form-group row">
+                        <label for="reservationDate" class="col-md-2 col-form-label">Reservation Date</label>
+                        <div class="col-md-10">
+                            <input type="date" class="form-control" id="reservationDate" name="reservationDate"
+                                required />
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <input type="submit" class="btn btn-primary">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <br>
